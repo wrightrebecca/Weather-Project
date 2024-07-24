@@ -4,43 +4,47 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>World Weather Forecaster</title>
+    <link rel="stylesheet" href="src/style.css" />
   </head>
   <body>
-    <header>
-      <h1>WEATHER</h1>
-      <form>
-        <input
-          type="search"
-          placeholder="Enter a town, city or country"
-          required
-        />
-        <input type="submit" value="search" />
-      </form>
-    </header>
-    <main>
-      <h2>Woking</h2>
-      <div>
-        <p>
-          Tuesday 18:58, light cloud <br />
-          Humidity: 59%, Wind: 2mph
-        </p>
-      </div>
-      <div>⛅23°c</div>
-    </main>
-    <footer>
-      This page was coded by
-      <a href="https://github.com/wrightrebecca" target="blank"
-        >Rebecca Wright</a
-      >. It is available on
-      <a href="https://github.com/wrightrebecca/Weather-Project" target="blank"
-        >GitHub</a
-      >
-      and is hosted by
-      <a
-        href="https://app.netlify.com/sites/world-weather-forecaster/overview"
-        target="blank"
-        >Netlify</a
-      >.
-    </footer>
+    <div class="app">
+      <header>
+        <form>
+          <input
+            type="search"
+            placeholder="Enter a town, city or country"
+            required
+          />
+          <input type="submit" value="search" />
+        </form>
+      </header>
+      <main>
+        <h1>Woking</h1>
+        <div>
+          <p>
+            Tuesday 18:58, light cloud <br />
+            Humidity: 59%, Wind: 2mph
+          </p>
+        </div>
+        <div>⛅23°c</div>
+      </main>
+      <footer>
+        This page was coded by
+        <a href="https://github.com/wrightrebecca" target="blank"
+          >Rebecca Wright</a
+        >. It is available on
+        <a
+          href="https://github.com/wrightrebecca/Weather-Project"
+          target="blank"
+          >GitHub</a
+        >
+        and is hosted by
+        <a
+          href="https://app.netlify.com/sites/world-weather-forecaster/overview"
+          target="blank"
+          >Netlify</a
+        >.
+      </footer>
+    </div>
   </body>
 </html>
