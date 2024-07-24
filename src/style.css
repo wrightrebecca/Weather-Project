@@ -1,6 +1,7 @@
 body {
   background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/135/203/original/bodyWallpaper.jpg?1721814743");
   background-size: cover;
+  font-family: "Nunito", sans-serif;
 }
 .app {
   background-color: #c6e7ee;
