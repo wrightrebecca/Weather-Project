@@ -1,5 +1,6 @@
 body {
-  background-color: beige;
+  background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/135/203/original/bodyWallpaper.jpg?1721814743");
+  background-size: cover;
 }
 .app {
   background-color: white;
