@@ -37,6 +37,26 @@ header {
   display: flex;
   justify-content: space-between;
 }
+main {
+  padding: 30px 0;
+}
+h1 {
+  margin: 0;
+  font-size: 50px;
+}
+.weather-details {
+  font-size: 20px;
+  line-height: 30px;
+  color: grey;
+  font-weight: 300;
+}
+.temperature {
+  display: flex;
+}
+.weather-details strong {
+  color: #00a7c9;
+  font-weight: 600;
+}
 a {
   color: #00a7c9;
 }
