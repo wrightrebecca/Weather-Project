@@ -33,6 +33,10 @@ header {
   font-family: "Nunito", sans-serif;
   font-size: 15px;
 }
+.weather-data {
+  display: flex;
+  justify-content: space-between;
+}
 a {
   color: #00a7c9;
 }
