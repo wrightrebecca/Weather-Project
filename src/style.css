@@ -76,7 +76,7 @@ a {
 }
 .weather-forecast {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
 }
 .weather-forecast-date {
   text-align: center;
