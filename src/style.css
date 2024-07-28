@@ -74,6 +74,10 @@ h1 {
 a {
   color: #00a7c9;
 }
+.weather-forecast {
+  display: flex;
+  justify-content: space-around;
+}
 .weather-forecast-date {
   text-align: center;
   color: grey;
@@ -96,7 +100,7 @@ a {
   display: flex;
   justify-content: center;
 }
-.highs-lows {
+.weather-forecast-temperature {
   padding: 0 5px;
 }
 
