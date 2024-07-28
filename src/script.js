@@ -7,12 +7,14 @@ function refreshWeather(response) {
   let descriptionElement = document.querySelector("#description");
   let humidityElement = document.querySelector("#humidity");
   let windElement = document.querySelector("#wind");
+  let iconElement = document.querySelector("#icon");
 
   cityElement.innerHTML = response.data.city;
   descriptionElement.innerHTML = response.data.condition.description;
   humidityElement.innerHTML = `${response.data.temperature.humidity}%`;
   windElement.innerHTML = `${response.data.wind.speed}mph`;
   temperatureElement.innerHTML = Math.round(temperature);
+  iconElement.innerHTML = `<img src = "${response.data.condition.icon_url}" class ="weather-icon" />`;
 }
 
 function searchCity(city) {
@@ -30,6 +32,8 @@ function searchSubmitLocation(event) {
 
 let searchFormElement = document.querySelector("#search-form");
 searchFormElement.addEventListener("submit", searchSubmitLocation);
+
+searchCity("London");
 
 function formatDate(date) {
   let minutes = date.getMinutes();

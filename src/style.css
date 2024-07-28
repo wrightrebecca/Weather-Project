@@ -55,8 +55,9 @@ h1 {
   display: flex;
 }
 .weather-icon {
-  font-size: 90px;
-  margin-top: 10px;
+  width: 100px;
+  height: 100px;
+  margin-top: 8px;
 }
 .weather-temperature-numerals {
   font-size: 100px;
