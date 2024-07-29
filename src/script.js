@@ -84,10 +84,11 @@ function displayForecast(response) {
 
   let forecastHtml = "";
 
-  response.data.daily.forEach(function (day) {
-    forecastHtml =
-      forecastHtml +
-      `
+  response.data.daily.forEach(function (day, index) {
+    if (index < 6) {
+      forecastHtml =
+        forecastHtml +
+        `
 <div class="weather-forecast-day">
   <div class="weather-forecast-date">Tues</div>
 <img src ="${day.condition.icon_url}" class="weather-forecast-icon"/>
@@ -100,6 +101,7 @@ function displayForecast(response) {
   )}º</div>
   </div>
   </div>`;
+    }
   });
   forecastElement.innerHTML = forecastHtml;
 }
